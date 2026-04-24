@@ -40,7 +40,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/bilibili-transcribe.git
+git clone https://github.com/CroissanTTs/bili-transcribe.git
 cd bilibili-transcribe
 
 # 安装依赖
