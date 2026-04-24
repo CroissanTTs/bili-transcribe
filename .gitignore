@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Whisper model cache
+*.pt
+models/
+
+# Project-specific: output and temp files
+video_output/
+video_temp/
+
+# Audio files (intermediate)
+*.m4a
+*.mp3
+*.wav
+
+# State files
+.transcribe_state.json
+
+# Streamlit
+.streamlit/secrets.toml
