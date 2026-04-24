@@ -1,0 +1,40 @@
+# Legal Notices
+
+## Purpose
+
+This software is a **general-purpose transcription tool** that uses the open-source
+[faster-whisper](https://github.com/SYSTRAN/faster-whisper) engine to convert
+audio files into text. It is published under the MIT License.
+
+## Third-Party APIs
+
+This tool accesses publicly available web APIs to retrieve video metadata and
+audio stream URLs. These APIs are not officially provided for third-party use.
+Users should:
+
+- Review and comply with the platform's Terms of Service
+- Avoid excessive requests that may burden the platform's infrastructure
+- Respect rate limits and access controls
+
+## Copyright
+
+- All video and audio content accessed through this tool belongs to its
+  respective copyright holders
+- Transcribed text is a derivative work of the original audio content
+- Users are responsible for ensuring they have legal rights to transcribe
+  and use the resulting text
+
+## No Warranty
+
+This software is provided "as is" without warranty of any kind. The authors
+shall not be liable for any claim, damages, or other liability arising from
+the use of this software.
+
+## Open Source Licenses
+
+| Package | License |
+|---------|---------|
+| faster-whisper | MIT |
+| CTranslate2 | MIT |
+| streamlit | Apache 2.0 |
+| requests | Apache 2.0 |
